@@ -14,11 +14,14 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Yohns\\Core\\" : "Core/"
+			"Yohns\\Lang\\" : "Yohns/Lang/"
 		}
 	},
 	"require": {
 		"php": "^8.0",
 		"yohns/config": "^1.0"
+	},
+	"require-dev": {
+		"clean/phpdoc-md": "^0.19.3"
 	}
 }

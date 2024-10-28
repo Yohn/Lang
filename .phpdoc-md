@@ -1,0 +1,9 @@
+<?php
+return (object)[
+    'rootNamespace' => 'Yohns\Lang',
+    'destDirectory' => 'docs',
+    'format' => 'github',
+    'classes' => [
+        'Yohns\Lang\Text',
+    ],
+];
