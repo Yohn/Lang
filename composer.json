@@ -18,10 +18,14 @@
 		}
 	},
 	"require": {
-		"php": "^8.0",
-		"yohns/config": "^1.0"
+		"php": "^8.0"
 	},
 	"require-dev": {
 		"clean/phpdoc-md": "^0.19.3"
+	},
+	"extras": {
+		"lang": {
+			"exclude": [".vscode"]
+		}
 	}
 }
