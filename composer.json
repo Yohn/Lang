@@ -1,6 +1,6 @@
 {
 	"name": "yohns/lang",
-	"type": "project",
+	"type": "library",
 	"description": "Simple and easy language class for php to be able to easily create translations for your text.",
 	"license": "MIT",
 	"minimum-stability": "stable",
