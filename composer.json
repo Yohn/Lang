@@ -1,0 +1,24 @@
+{
+	"name": "yohns/lang",
+	"type": "project",
+	"description": "Simple and easy language class for php to be able to easily create translations for your text.",
+	"license": "MIT",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "John Brittain III",
+			"email": "Yohn@coming-soon.com",
+			"homepage": "https://github.com/Yohn",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Yohns\\Core\\" : "Core/"
+		}
+	},
+	"require": {
+		"php": "^8.0",
+		"yohns/config": "^1.0"
+	}
+}
