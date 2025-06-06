@@ -43,7 +43,7 @@ class Text {
 		}
 		self::$langFile = self::$directory.'/'.self::$lingo.'.php';
 		if(!is_file(self::$langFile)) {
-			throw new Exception("Lang file not found: {$langFile}");
+			throw new Exception("Lang file not found: ".self::$langFile);
 		}
 		self::$text[$lingo] = include self::$langFile;
 		if($lingo != 'en'){
